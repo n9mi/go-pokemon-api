@@ -1,0 +1,11 @@
+goos: linux
+goarch: amd64
+pkg: go-pokemon-api/test
+cpu: Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz
+BenchmarkFetchWithWorker-8   	       1	1284462775 ns/op
+BenchmarkFetchWithWorker-8   	       7	 178440627 ns/op
+BenchmarkFetchWithWorker-8   	       6	 178616682 ns/op
+BenchmarkFetchWithWorker-8   	       6	 174216091 ns/op
+BenchmarkFetchWithWorker-8   	       6	 177974405 ns/op
+PASS
+ok  	go-pokemon-api/test	6.436s
